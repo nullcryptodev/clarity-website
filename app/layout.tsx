@@ -21,9 +21,23 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Optimus - Platform to Create',
-  description: 'The creative platform for teams who ship. Build, deploy, and scale with unprecedented velocity.',
+  title: 'Clarity — Authority rotates, the chain doesn\'t',
+  description: 'A BFT proof-of-stake chain with immediate finality and verifiable state. Blocks commit in a single round, and every value can be proven against a Merkle root.',
   generator: 'v0.app',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'Clarity — Authority rotates, the chain doesn\'t',
+    description: 'A BFT proof-of-stake chain with immediate finality and verifiable state.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Clarity — Authority rotates, the chain doesn\'t',
+    description: 'A BFT proof-of-stake chain with immediate finality and verifiable state.',
+    creator: '@_nullcrypto',
+  },
 }
 
 export default function RootLayout({
